@@ -7,6 +7,15 @@
 */
 
 // Start coding here
+const multiplyByTwo = (matrix) => {
+  const result = [];
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+      result.push(matrix[i][j] * 2);
+    }
+  }
+  return result;
+};
 
 const matrix = [
   [11, 22],
